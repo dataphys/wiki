@@ -1,0 +1,49 @@
+====== Terminology ======
+
+**Data physicalizations** or **physical visualizations** are data-driven physical artefacts. They are the physical counterparts of data visualizations. Such artefacts may involve the use of computers, either to fabricate them or to actuate them. A closely related term is **data sculpture**.
+
+====== Physical Visualization ======
+The term "physical visualization" appeared in the information visualization literature around 2008((Andrew Vande Moere. [[https://pdfs.semanticscholar.org/2a71/eff2567118fc1ee1b6257f51a1e87ef2dd65.pdf|Beyond the tyranny of the pixel: Exploring the physicality of information visualization]] Information Visualisation, 2008. IV'08))((Jack Zhao, Andrew Vande Moere.[[https://dl.dropboxusercontent.com/u/3282370/tangibleVis/p343-zhao.pdf|Embodiment in data sculpture: a model of the physical visualization of information]] DIMEA '08 Proceedings of the 3rd international conference on Digital Interactive Media in Entertainment and Arts, pages 343-350. ACM, 2008)). 
+
+According to Jansen et al. (2013):
+
+> Traditional visualizations map data to pixels or ink, whereas physical visualizations map data to physical form."((Yvonne Jansen, Pierre Dragicevic, Jean-Daniel Fekete. [[https://hal.inria.fr/hal-00781831/document|Evaluating the efficiency of physical visualizations]]. CHI2013 – Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, pages 2593- 2602. ACM, 2013.))
+
+====== Data Physicalization ======
+Jansen et al. (2015) suggest to use the term "data physicalization" as a synonym for physical visualization when one does not want to overemphasize the visual sense:
+
+> A data physicalization (or simply physicalization) is a physical artifact whose geometry or material properties encode data ((Yvonne Jansen, Pierre Dragicevic, Petra Isenberg, Jason Alexander, Abhijit Karnik, Johan Kildal, Sriram Subramanian, Kasper Hornbæk. [[https://hal.inria.fr/hal-01120152/document|Opportunities and Challenges for Data Physicalization]]. CHI 2015 - Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2015.))
+
+
+The same article distinguishes between data physicalizations as artefacts (for which they suggest the working definition above), data physicalization as the process of giving physical form to data, and data physicalization as a research area that brings together data visualization (infovis and sci-vis) and tangible user interfaces (TUIs):
+
+> We propose to think of Data Physicalization as a research area that examines how computer-supported, physical representations of data (i.e., physicalizations), can support cognition, communication, learning, problem solving, and decision making. ((Yvonne Jansen, Pierre Dragicevic, Petra Isenberg, Jason Alexander, Abhijit Karnik, Johan Kildal, Sriram Subramanian, Kasper Hornbæk. [[https://hal.inria.fr/hal-01120152/document|Opportunities and Challenges for Data Physicalization]]. CHI 2015 - Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2015.))
+
+
+====== Data-Object ======
+Gwilt et al. (2012) coined the term "data-object" to refer to
+> physical artefacts based on data extracted from statistical digital information systems ((Ian Gwilt, Yoxall Alaster, and Sano Koutaro. [[https://www.designsociety.org/download-publication/32468/enhancing_the_understanding_of_statistical_data_through_the_creation_of_physical_objects|Enhancing the Understanding of Statistical Data Through the Creation of Physical Objects]]. DS 73-1 Proceedings of the 2nd International Conference on Design Creativity Volume 1. 2012))
+
+
+====== Data Sculpture ======
+The term "data sculpture" probably first appeared around 2005 ((Andrew Vande Moere. [[http://infosthetics.com/archives/2005/08/email_erosion_1.html|email erosion]] infosthetics.com (blog post). August 2005)), gained traction in 2008 and became popular around 2014 ((Pierre Dragicevic. [[http://www.aviz.fr/physterms|Popularity of data physicalization terms]] (online). April 2017.)). Data sculptures generally refer to artistic data physicalizations. 
+
+
+According to Zhao and Vande Moere (2008), a data sculpture is:
+
+> a data-based physical artifact, possessing both artistic and functional qualities, that aims to augment a nearby audience’s understanding of data insights and any socially relevant issues that underlie it ((Jack Zhao, Andrew Vande Moere.[[https://dl.dropboxusercontent.com/u/3282370/tangibleVis/p343-zhao.pdf|Embodiment in data sculpture: a model of the physical visualization of information]] DIMEA '08 Proceedings of the 3rd international conference on Digital Interactive Media in Entertainment and Arts, pages 343-350. ACM, 2008)).
+
+
+For artist Loren Madsen (2015), a data sculpture is "three-dimensional data art", i.e.,
+> art whose form in large part is determined by data or information ((Pierre Dragicevic. [[http://dataphys.org/list/loren-madsen-interview|Interview with Loren Madsen: The Birth of Data Sculpture]]. Online: http://dataphys.org/list/loren-madsen-interview. 2015.)).
+
+
+As for Jansen et al. (2015), they refer to data sculptures as:
+
+> data-driven artifacts [[...]] built by artists and designers who seek to elicit emotions and convey meaning beyond mere data ((Yvonne Jansen, Pierre Dragicevic, Petra Isenberg, Jason Alexander, Abhijit Karnik, Johan Kildal, Sriram Subramanian, Kasper Hornbæk. [[https://hal.inria.fr/hal-01120152/document|Opportunities and Challenges for Data Physicalization]]. CHI 2015 - Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2015.)).
+
+
+====== Kinetic Sculpture ======
+Data sculptures, like regular sculptures, are typically static. Kinetic sculptures are dynamic, but do not necessarily show data. However, there exist several examples of [[http://dataphys.org/list/category/active/|kinetic data sculptures]].
+
+====== References ======

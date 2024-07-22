@@ -1,0 +1,67 @@
+====== Mediasyntax Plugin for DokuWiki ======
+
+All documentation for the Mediasyntax Plugin is available online at:
+
+  * https://www.dokuwiki.org/plugin:mediasyntax
+
+Do NOT try to install this plugin via un-tarring it. Use plugin manager as described in the above link.
+
+----
+
+(c) 2005-2007 by Esther Brunner <wikidesign@gmail.com>
+(c) 2008 by Gina Häußge, Michael Klier <dokuwiki@chimeric.de>
+(c) 2006 by Allen Ormond <aormond atgmaildotcom> (was goto plugin, now redirect component)
+(c) 2010-2023 by Thorsten Stärk <dev@staerk.de>
+
+See COPYING for license info.
+
+Change history:
+2023-07-29: 2 hours: adapted to PHP 8 forbidding array and string offset access syntax with curly braces
+2015-07-26: 1 hour: added tool to update mediasyntax on www.staerk.de
+2015-07-25: 1 hour: allow [[File: instead of [[Image:
+2015-06-27: 1 hour: enable linking to PDF
+2013-08-04: 1 hour: do not show "you will be redirected"... inside an <ol>
+2013-08-04: 1 hour: keep "__". It is not a markup for <u>
+2013-08-03: 1 hour: keep the stars. "**" does not mean "bold"
+2013-08-02: 2 hours: do not stop rendering on "//"
+2012-09-20: 4 hours: converter: allow for rowspan
+2012-09-19: 1 hour: converter: do not have empty columns right of your table
+2012-07-25: 1 hour: issue #9: converter: treat ordered lists right
+2012-07-24: 1 hour: issue #9: converter: treat headings right
+2012-07-23: 2 hours: also convert tables with no headers
+2012-07-23: 1 hour: converter: do not hang on lists
+2012-07-20: 1 hour: converter: replace ** with '''
+2012-03-19: 2 hours: fix hplus and hminus in toolbar, convert italic from dokuwiki to mediawiki
+2012-03-18: 4 hours: add teletyper tag tt
+2012-03-18: 2 hours: fix toolbar regarding hminus and ol
+2012-03-18: 1 hour: testcase for converting dokuwiki style tables to mediawiki
+2012-03-17: 1 hour: allow converting dokuwiki style tables to mediawiki
+2011-07-17: 1 hour: Issue 6: bring date from http://www.dokuwiki.org/plugin:mediasyntax and plugin.info.txt in sync
+2011-07-03: 4 hours: allowed bold text in codeblocks, but not in preblocks
+2011-04-02: 4 hours: Issue 3: allow pictures (aka images)
+2011-01-23: 1 hour: Issue 2: allowed internal links to be italic
+2010-12-10: 2 hours: allowed {{included pages}} as in mediawiki style
+2010-11-21: 1 hour: listblock starting with two ** works now, see https://github.com/tstaerk/mediasyntax/issues#issue/1
+2010-10-30: 2 hours: made toolbar work
+2010-10-28: 1 hour: allow a codeblock directly under a listitem
+2010-10-26: 1 hour: allow a listitem directly under a codeblock
+2010-10-19: 1 hour: cleanup code, remove misleading configuration setting
+2010-10-17: 2 hour: italic font and plugin info text, removing getInfo()
+2010-10-16: 3 hours: un-teach dokuwiki that // makes text italic
+2010-10-13: 2 hours: convert tool to convert existing files from dokuwiki syntax to mediawiki syntax
+2010-08-21: 1 hour: redirect made faster
+2010-08-20: 1 hour: preblock and codeblock should start on the same column
+2010-08-07: 8 hours: allowed a SpecialPattern (e.g. GB) in the mid of a line, directly followed by a blank, without triggering a preformatted area. Had to reasearch the calls object structure of the parser for this.
+2010-07-22: 5 hours: preformatted text should work with SUSE and Ubuntu. Solution is simple: AddEntryPattern requires a parameter $mode. Set it to 'base'.
+2010-05-05: 8 hours: preformatted text directly under normal text works, and two subsequent lines of preformatted text start on the same column
+2010-04-18: 3 hours: bold text works
+2010-04-17: 2 hours: adapting goto plugin by Allen Ormond to become the redirect component
+2010-04-16: 1 hour:  testcase for external link
+2010-04-15: 3 hours: external links work
+2010-04-11: 1 hour:  <pre> tag must not be interrupted by a line starting with a character that is not a space
+2010-04-10: 3 hours: possibility to use the <pre> tag
+2010-04-08: 1 hour:  version updated
+2010-04-03: 1 hour:  testcase & two adjacent preformatted lines fix
+2010-04-02: 4 hours: single blank at beginning of line makes preformatted text
+2010-03-29: 2 hours: created mediasyntax from creole plugin
+

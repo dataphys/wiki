@@ -1,0 +1,110 @@
+====== Technologies ======
+
+This is a list of **academic work discussing technologies** that could be used for data physicalization, although they have not been specifically presented as such. It is currently very incomplete, but [[Contribute|you can help expand it]].
+
+Also see the //enabling technology// category in the [[http://dataphys.org/list/category/enabling-technology/|list of physical visualizations and related artefacts]].
+
+
+
+==== 2021 ====
+  * Ettehadi, Omid, Fraser Anderson, Adam Tindale, and Sowmya Somanath.  \\  **[[https://dl.acm.org/doi/abs/10.1145/3411764.3445551|Documented: Embedding Information onto and Retrieving Information from 3D Printed Objects.]]** \\  In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems, pp. 1-11. 2021. DOI: 10.1145/3411764.3445551
+
+  * Bhardwaj, Ayush, Junghoon Chae, Richard Huynh Noeske, and Jin Ryong Kim.  \\  **[[https://dl.acm.org/doi/abs/10.1145/3489849.3489890|TangibleData: Interactive Data Visualization with Mid-Air Haptics.]]** \\  In Proceedings of the 27th ACM Symposium on Virtual Reality Software and Technology, pp. 1-11. 2021. DOI:10.1145/3489849.3489890
+
+==== 2020 ====
+  * Lee, Kyung-Ryong, Somi Ju, Temirlan Dzhoroev, Geonil Goh, Moon-Hwan Lee, and Young-Woo Park.  \\  **[[https://dl.acm.org/doi/abs/10.1145/3357236.3395439|DayClo: an everyday table clock providing interaction with personal schedule data for self-reflection.]]** \\  In Proceedings of the 2020 ACM Designing Interactive Systems Conference, pp. 1793-1806. 2020. DOI: 10.1145/3357236.3395439
+
+  * Nakagaki, Ken, Yingda Liu, Chloe Nelson-Arzuaga, and Hiroshi Ishii.  \\  **[[https://dl.acm.org/doi/abs/10.1145/3374920.3374933|TRANS-DOCK: Expanding the interactivity of pin-based shape displays by docking mechanical transducers.]]** \\  In Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction, pp. 131-142. 2020. DOI: 10.1145/3374920.3374933
+
+  * Mor, Hila, Tianyu Yu, Ken Nakagaki, Benjamin Harvey Miller, Yichen Jia, and Hiroshi Ishii.  \\  **[[https://dl.acm.org/doi/abs/10.1145/3313831.3376129|Venous materials: Towards interactive fluidic mechanisms.]]** \\  In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, pp. 1-14. 2020. DOI: 10.1145/3313831.3376129
+
+  * Tejada, Carlos E., Raf Ramakers, Sebastian Boring, and Daniel Ashbrook.  \\  **[[https://dl.acm.org/doi/abs/10.1145/3313831.3376136|Airtouch: 3d-printed touch-sensitive objects using pneumatic sensing.]]** \\  In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, pp. 1-10. 2020. DOI: 10.1145/3313831.3376136
+
+  * Zheng, Clement, Peter Gyory, and Ellen Yi-Luen Do.  \\  **[[https://dl.acm.org/doi/abs/10.1145/3357236.3395578|Tangible interfaces with printed paper markers.]]** \\  In Proceedings of the 2020 ACM designing interactive systems conference, pp. 909-923. 2020. DOI: 10.1145/3357236.3395578
+
+==== 2019 ====
+  * Suzuki, Ryo, Clement Zheng, Yasuaki Kakehi, Tom Yeh, Ellen Yi-Luen Do, Mark D. Gross, and Daniel Leithinger.  \\  **[[https://dl.acm.org/doi/10.1145/3332165.3347911|Shapebots: Shape-changing swarm robots.]]** \\  In Proceedings of the 32nd annual ACM symposium on user interface software and technology, pp. 493-505. 2019. DOI: 10.1145/3332165.3347911
+
+  * Daniel, Maxime, Guillaume Rivière, and Nadine Couture.  \\  **[[https://dl.acm.org/doi/abs/10.1145/3294109.3295634|Cairnform: A shape-changing ring chart notifying renewable energy availability in peripheral locations.]]** \\  In Proceedings of the Thirteenth International Conference on Tangible, Embedded, and Embodied Interaction, pp. 275-286. 2019. DOI: 10.1145/3294109.3295634
+
+  * Ju, Somi, Kyung-Ryong Lee, Subin Kim, and Young-Woo Park.  \\  **[[https://dl.acm.org/doi/abs/10.1145/3290605.3300614|Bookly: An Interactive Everyday Artifact Showing the Time of Physically Accumulated Reading Activity.]]** \\  In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, pp. 1-8. 2019. DOI: 10.1145/3290605.3300614
+
+==== 2018 ====
+  * Suzuki, Ryo, Jun Kato, Mark D. Gross, and Tom Yeh.  \\  **[[https://dl.acm.org/doi/abs/10.1145/3173574.3173773|Reactile: Programming swarm user interfaces through direct physical manipulation.]]** \\  In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems, pp. 1-13. 2018. DOI: 10.1145/3173574.3173773
+
+==== 2017 ====
+  * Suzuki, Ryo, Abigale Stangl, Mark D. Gross, and Tom Yeh.  \\  **[[https://dl.acm.org/doi/abs/10.1145/3132525.3132548|Fluxmarker: Enhancing tactile graphics with dynamic tactile markers.]]** \\  In Proceedings of the 19th International ACM SIGACCESS Conference on Computers and Accessibility, pp. 190-199. 2017. DOI: 10.1145/3132525.3132548
+
+==== 2015 ====
+{{#ev:youtube|VZQYn_uh9GM|250|right|Video preview for **bioLogic: Natto Cells as Nanoactuators for Shape Changing Interfaces**.|frame}}
+  * Ken Nakagaki, Sean Follmer, and Hiroshi Ishii.  \\ **LineFORM: Actuated Curve Interfaces for Display, Interaction, and Constraint**.  \\ UIST'15 - Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. ACM, 2015, pp. 333-339.
+
+  * Cesar Torres, Tim Campbell, Neil Kumar, and Eric Paulos. \\ **HapticPrint: Designing Feel Aesthetics for Digital Fabrication**. \\ UIST'15 - Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. ACM, 2015, pp. 583-591. 
+
+  * Yao L., Wang, W., Ou, J, Wang, G., Cheng, C-Y, Steiner, H., Ishii, H.  \\ **bioLogic: Natto Cells as Nanoactuators for Shape Changing Interfaces**.  \\ CHI 2015 - Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2015.
+
+{{#ev:youtube|1dHxZi7evMo|250|right|Video for **ShapeClip: towards rapid prototyping with shape-changing displays for designers**.|frame}}
+  * Hardy, John, Christian Weichel, Faisal Taher, John Vidler, and Jason Alexander. \\ **ShapeClip: towards rapid prototyping with shape-changing displays for designers.** \\ CHI 2015 - Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, pp. 19-28. ACM, 2015.
+==== 2014 ====
+{{#ev:youtube|Df7fZAYVAIE|250|right|Video for **Dyadic projected spatial augmented reality**.|frame}}
+  * Benko, H., Wilson, A. D., Zannier, F., and Benko, H.  \\ **Dyadic projected spatial augmented reality**. \\ In Proc. UIST (2014), 645–655.
+
+{{#ev:vimeo|87068584|250|right|Video for **Weight and volume changing device with liquid metal transfer**.|frame}}
+  * Niiyama, R., Yao, L., and Ishii, H.  \\ **Weight and volume changing device with liquid metal transfer.**  \\ In Proc. TEI (2014), 49–52.
+
+{{#ev:youtube|LiD7dnqY034|250|right|Video for **Printscreen: fabricating highly customizable thin-film touch-displays**.|frame}}
+  * Olberding, S., Wessely, M., and Steimle, J.  \\ **Printscreen: fabricating highly customizable thin-film touch-displays**.  \\ In Proc. UIST (2014), 281–290.
+
+  * Seah, S., Drinkwater, B., Carter, T., Malkin, R., and Subramanian, S.  \\ **Dexterous ultrasonic levitation of millimeter-sized objects in air.**  \\ UFFC 61, 7 (2014), 1233–1236.
+
+{{#ev:youtube|JGUmf4HqTxM|250|right|Video for **SensaBubble: A chrono-sensory mid-air display of sight and smell**.|frame}}
+  * Seah, S. A., Martinez Plasencia, D., Bennett, P. D., Karnik, A., Otrocol, V. S., Knibbe, J., Cockburn, A., and Subramanian, S.  \\ **SensaBubble: A chrono-sensory mid-air display of sight and smell.**  \\ CHI 2014 - Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2014., 2863–2872.
+
+==== 2013 ====
+  * Follmer, S., Leithinger, D., Olwal, A., Hogge, A., and Ishii, H.  \\ **inFORM: Dynamic physical affordances and constraints through shape and object actuation**.  \\ In Proc. UIST (2013), 417–426.
+
+  * Romanishin, J., Gilpin, K., and Rus, D.  \\ **M-blocks: Momentum-driven, magnetic modular robots.**  \\ In Proc. IROS, IEEE/RSJ (2013), 4288–4295.
+
+  * Roudaut, A., Karnik, A., Lo ̈chtefeld, M., and Subramanian, S.  \\ **Morphees: Toward high “shape resolution” in self-actuated flexible mobile devices**.  \\ In Proc. CHI (2013), 593–602.
+
+  * Steimle, J., Jordt, A., and Maes, P.  \\ **Flexpad: highly flexible bending interactions for projected handheld displays**.  \\ In Proc. CHI (2013), 237–246.
+
+  * Yao, L., Niiyama, R., Ou, J., Follmer, S., Della Silva, C., and Ishii, H.  \\ **PneUI: Pneumatically actuated soft composite materials for shape changing interfaces**.  \\ In Proc. UIST (2013), 13–22.
+
+==== 2012 ====
+  * Alexander, J., Lucero, A., and Subramanian, S.  \\ **Tilt Displays: Designing display surfaces with multi-axis tilting and actuation**.  \\ In Mobile HCI (2012), 161–170.
+
+  * Follmer, S., Leithinger, D., Olwal, A., Cheng, N., and Ishii, H.  \\ **Jamming user interfaces: Programmable particle stiffness and sensing for malleable and shape-changing devices**.  \\ In Proc. UIST (2012), 519–528.
+
+  * Ishii, H., Lakatos, D., Bonanni, L., and Labrune, J.-B.  \\ **Radical Atoms: Beyond Tangible Bits, toward transformable materials**.  \\ Interactions 19, 1 (2012), 38–51.
+
+  * Kildal, J.  \\ **Kooboh: Variable tangible properties in a handheld Haptic-Illusion box**.  \\ In Proc. EuroHaptics’12. Springer, 2012, 191–194.
+
+  * Rasmussen, M. K., Pedersen, E. W., Petersen, M. G., and Hornbæk, K.  \\ **Shape-changing interfaces: a review of the design space and open research questions**.  \\ In Proc. CHI (2012), 735–744.
+
+==== 2011 ====
+  * Gilpin, K., Koyanagi, K., and Rus, D.  \\ **Making self-disassembling objects with multiple components in the Robot Pebbles system**.  \\ In ICRA (2011), 3614–3621.
+
+  * Lai, C.-H., Niinimaki, M., Tahiroğlu, K., Kildal, J. and Ahmaniemi, T.  \\ **Perceived Physicality in Audio-Enhanced Force Input**.  \\ Proc. ICMI'11 ACM, (2011), 287-294.
+
+  * Lee, J., Post, R., and Ishii, H.  \\ **ZeroN: Mid-air tangible interaction enabled by computer controlled magnetic levitation**.  \\ In Proc. UIST (2011), 327–336.
+
+==== 2010 ====
+  * Kildal, J.  \\ **3D-Press: Haptic Illusion of Compliance when Pressing on a Rigid Surface**.  \\ Proc. ICMI'10 ACM, (2010), 8pp.
+
+==== 2009 ====
+  * Hiller, J., and Lipson, H.  \\ **Design and analysis of digital materials for physical 3d voxel printing**.  \\ Rapid Prototyping Journal 15, 2 (2009), 137–149.
+
+==== 2006 ====
+  * Schweikardt, E., and Gross, M. D.  \\ **roBlocks: A robotic construction kit for mathematics and science education**.  \\ In Proc. ICMI (2006), 72–75.
+
+==== 2004 ====
+  * Poupyrev, I., Nashida, T., Maruyama, S., Rekimoto, J., and Yamaji, Y.  \\ **Lumen: interactive visual and shape display for calm computing**.  \\ In SIGGRAPH Emerging Technologies (2004), 17.
+
+==== 2002 ====
+  * Murata, S., Yoshida, E., Kamimura, A., Kurokawa, H., Tomita, K., and Kokaji, S.  \\ **M-TRAN: Self-reconfigurable modular robotic system.  \\ TMECH 7, 4 (2002), 431–441**.
+
+  * Piper, B., Ratti, C., and Ishii, H.  \\ **Illuminating clay: A 3-D tangible interface for landscape analysis**.  \\ In Proc. CHI (2002), 355–362.
+
+==== 1999 ====
+  * Underkoffler, J., and Ishii, H.  \\ **Urp: A luminous-tangible workbench for urban planning and design**.  \\ In Proc. CHI (1999), 386–393.

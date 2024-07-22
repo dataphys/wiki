@@ -1,0 +1,21 @@
+====== Data Physicalization ======
+
+
+Physical representations of data have existed for thousands of years. Now, with advances in digital fabrication, actuated tangible interfaces, and shape-changing displays, a new area of research is emerging: **data physicalization**.
+{{ youtube>RG0sSDBjdmQ}}
+
+Data physicalization aims to help people explore, understand, and communicate data using computer-supported physical data representations. These representations are called **physicalizations**, analogously to visualizations – their purely visual counterpart. This wiki provides reading material and a forum for all interested in this topic.
+
+====== Content of this Wiki ======
+  * [[Terminology]] – Terminology related to data physicalization
+  * [[People]] – List of people involved in data physicalization
+  * [[Bibliography]] – List of research papers on data physicalization
+  * [[Teaching]] - A place to collect teaching resources for data physicalization
+  * [[Technologies]] – Papers on enabling technologies for data physicalization
+  * [[Workshops]] – Past and future workshops on data physicalization
+  * [[Contribute]] – How to contribute to this wiki
+
+====== External Links ======
+{{wiki:physlist-gallery-2.jpg?480|link=http://dataphys.org/list/gallery}}
+
+  * [[http://dataphys.org/list|List of physical visualizations]] which is also available in the form of a [[http://dataphys.org/list/gallery|gallery view]]

@@ -1,0 +1,37 @@
+====== Guide_for_Contributors ======
+
+Welcome to our wiki and thank you for volunteering as a contributor!
+
+====== What is the purpose of this wiki? ======
+The purpose of this wiki is **information**. Data physicalization is now everywhere but there is no resource on the Web that covers this topic broadly and can help curious people sort things out. The aim of this wiki is to fill this gap.
+
+====== How is this wiki different from the List of Physical Visualizations? ======
+The [[http://dataphys.org/list|List of Physical Visualizations]] is hosted separately and based on an entirely different system:
+  * The **list of physical visualizations** is a Wordpress website where anyone can comment or contribute new entries simply by [[http://dataphys.org/list/submit/|filling a form]]. Stuff gets added over time and generally doesn't get edited afterwards. Entries are short and there is no overall structure besides chronology, tags and categories. Each new entry gets tweeted, the intended audience is rather broad.
+  * This **data physicalization wiki** is a [[https://www.mediawiki.org/wiki/MediaWiki/|MediaWiki]] system where a small group of people get to edit the content directly. The content is more organized and gets corrected and refined over time. It touches on general concepts rather than being simply a collection of factoids. The intended audience is smaller, basically people who are working or would like to work on the topic rather than just people interested in cool stuff.
+
+====== How does this wiki work? ======
+Once you are logged in, you can navigate this wiki just as usual. The only difference is that you can edit any page by clicking on the **Edit** link on the top.
+
+If you are not familiar with MediaWiki or with wikis in general:
+  * [[https://www.mediawiki.org/wiki/Help:Editing_pages|Help:Editing_page]] explains how to edit and save.
+  * [[https://www.mediawiki.org/wiki/Help:Formatting|Help:Formatting]] is quick reference to the MediaWiki syntax.
+
+Don't be afraid to edit, as MediaWiki keeps a history of all edits and **it is easy to revert back** to previous revisions in case of a mistake. Best is to regularly hit the **Preview** button below the text editor to check whether your changes show up correctly. Don't forget to eventually click **Save page**!
+
+====== What am I allowed to do? ======
+There is no guideline yet, but overall the admins initially created this wiki with the philosophy of Wikipedia in mind. This place is **meant to inform** rather than advertise people's own work. It is however not hard at all to talk about your work if it's presented as being part of a more general theme. So go ahead, your work is great and you're the best specialist on it, just be a bit careful about how you frame it.
+
+Also, in contrast with Wikipedia, we are very much open to the idea of including **original content**, especially if it helps clarify terms and concepts, and sort things out.
+
+As in any wiki, we expect contributors to occasionally **disagree** on specific changes, or on where the whole thing should be heading. Don't worry, each page has a **Discussion** tab for that. In case you are considering doing a **major change** (e.g., changing the site's structure), use the Discussion tab on the main page: [[Talk:Data_Physicalization]].
+Use the four tildes <code><nowiki>~~~~</nowiki></code> syntax to sign. More on discussion pages [[https://www.mediawiki.org/wiki/Help:Talk_pages|here]].
+
+====== Who is behind this wiki? ======
+Everyone who's interested. This wiki has been originally created by Yvonne Jansen and Pierre Dragicevic, who are research scientists with initially a computer science background. They are responsible for the initial content. You can help make this Wiki into something closer to what you would like it to be, by going to the [[Talk:Data_Physicalization]] page and by contributing.
+
+====== Why don't I have a red asterisk next to my name? ======
+Once you have done your first edit, go to the [[People]] page and append a red asterisk to your name. Thank you!
+
+====== I have other questions ======
+If you have any question, use the [[Talk:Guide_for_Contributors]] page (preferred) or email the wiki admins (Yvonne and Pierre) at [[mailto:info@dataphys.org|info@dataphys.org]]. If you have both the question and the answer, feel free to edit this page!

@@ -1,0 +1,7 @@
+a:18:{i:0;a:3:{i:0;s:14:"document_start";i:1;a:0:{}i:2;i:0;}i:1;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:0;}i:2;a:3:{i:0;s:12:"internallink";i:1;a:2:{i:0;s:20:"data_physicalization";i:1;s:9:"Main page";}i:2;i:1;}i:3;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:1:"
+";}i:2;i:35;}i:4;a:3:{i:0;s:12:"internallink";i:1;a:2:{i:0;s:11:"terminology";i:1;s:11:"Terminology";}i:2;i:36;}i:5;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:1:"
+";}i:2;i:63;}i:6;a:3:{i:0;s:12:"internallink";i:1;a:2:{i:0;s:6:"people";i:1;s:6:"People";}i:2;i:64;}i:7;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:1:"
+";}i:2;i:81;}i:8;a:3:{i:0;s:12:"internallink";i:1;a:2:{i:0;s:12:"bibliography";i:1;s:12:"Bibliography";}i:2;i:82;}i:9;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:1:"
+";}i:2;i:111;}i:10;a:3:{i:0;s:12:"internallink";i:1;a:2:{i:0;s:12:"technologies";i:1;s:12:"Technologies";}i:2;i:112;}i:11;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:1:"
+";}i:2;i:141;}i:12;a:3:{i:0;s:12:"internallink";i:1;a:2:{i:0;s:8:"teaching";i:1;s:8:"Teaching";}i:2;i:142;}i:13;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:1:"
+";}i:2;i:163;}i:14;a:3:{i:0;s:12:"internallink";i:1;a:2:{i:0;s:10:"contribute";i:1;s:10:"Contribute";}i:2;i:164;}i:15;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:0:"";}i:2;i:189;}i:16;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:189;}i:17;a:3:{i:0;s:12:"document_end";i:1;a:0:{}i:2;i:189;}}

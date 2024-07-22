@@ -1,0 +1,7 @@
+[[data_physicalization|Main page]]
+[[terminology|Terminology]]
+[[people|People]]
+[[bibliography|Bibliography]]
+[[technologies|Technologies]]
+[[teaching|Teaching]]
+[[contribute|Contribute]]

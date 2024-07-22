@@ -1,0 +1,29 @@
+====== Cheatsheet ======
+
+====== Special pages ======
+  * CSS
+http://dataphys.org/wiki/MediaWiki:Vector.css
+
+  * Side bar
+http://dataphys.org/wiki/MediaWiki:Sidebar&action=edit
+
+  * Guide for contributors
+http://dataphys.org/wiki/Guide_for_Contributors
+
+  * Create account text
+http://dataphys.org/wiki/MediaWiki:Createaccount-text
+
+  * Invite people
+http://dataphys.org/wiki/Special:InviteSignup
+
+====== SSH required ======
+  * Logo
+http://dataphys.org/uploads/dataphys-wiki-logo.png
+
+http://dataphys.org/uploads/dataphys-wiki-logo-2x.png
+
+  * Mediawiki settings
+dataphys.org/htdocs/mediawiki/mediawiki-1.25.1/LocalSettings.php
+
+  * External link logo
+dataphys.org/htdocs/mediawiki/mediawiki-1.25.1/skins/Vector/images/external-link-ltr-icon.png

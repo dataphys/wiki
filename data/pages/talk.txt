@@ -1,0 +1,9 @@
+====== Talk ======
+
+====== Talk Page ======
+This is the talk page for the entire wiki. See [[GuideForContributors]] for an explanation. Content here should ideally grow and never be deleted, unless perhaps the page becomes too large. We'll see. We still need a mechanism for notifying people of changes to this page, we're thinking about it.
+
+====== Example of a discussion thread ======
+//Pierre:// talks could be organized in threads like this. This is the initial question or comment on this thread, wrote by the person who opened the thread.
+;//Pierre:// this is a response to the above.
+-: //Pierre:// this is a response to the above response.

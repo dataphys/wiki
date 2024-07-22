@@ -1,0 +1,292 @@
+/* Dokuwiki custom styles */
+
+html, body {
+	color: #333;
+/*	background: #fbfaf9 url("images/header-gradient.png") top left repeat-x;*/
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: @ini_body_font;
+	font-size: 82%;
+	color: #333333;
+}
+
+input,select {
+	border-radius: 5px;
+}
+
+// Topbar: text center-aligned to logo
+#dokuwiki__header .logo  a {
+	color:#333333;
+	font-size: 1em;
+	font-weight: bold;
+	color: #666666; /*rgb(254, 137, 2);*/
+	text-shadow: 1px 1px 1px #cccccc;
+	display: flex;
+    align-items:center;
+}
+#dokuwiki__header .logo span {
+	padding: 0;
+}
+
+#dokuwiki__content h1,
+#dokuwiki__content h2 {
+	font-family: @ini_header_font;
+	font-weight: 100;
+	border-bottom: dotted 1px #888888;
+	text-shadow: 1px 1px 1px #cccccc;
+}
+
+#dokuwiki__header{
+	padding: 2.2em 0px 0em;
+}
+
+#qsearch__out {
+	background-color: #646b73;
+}
+
+
+.dokuwiki .pageId
+{
+	visibility:hidden;
+	padding: 0
+}
+#dokuwiki__usertools {
+	height: 3em;
+}
+
+#dokuwiki__sitetools ul {
+	margin-left: auto;
+}
+
+#dokuwiki__usertools, #dokuwiki__usertools a,#dokuwiki__sitetools a {
+	color:#333333;
+}
+#dokuwiki__usertools a.action { 
+ padding-bottom:3px;
+}
+
+// Aside & Content boxes
+.showSidebar  #dokuwiki__content {
+	float:left;
+	width: 97%;	
+}
+
+#dokuwiki__aside {
+	float:right;
+
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	width: 20%;
+}
+
+// Quick search 
+#qsearch__out {
+	border-radius:5px;
+}
+#qsearch__out a {
+	color: #008800;
+}
+
+div.notify {
+	float:left;
+}
+div.notify a {
+	color:rgb(0, 136, 0) !important;
+} 
+
+.dokuwiki div.breadcrumbs div:last-child,
+.dokuwiki div.breadcrumbs {
+	border:none;
+}
+
+.dokuwiki div.page {
+	padding: 20px;
+	border-radius: 5px;
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+	
+}
+
+// 20Cones - New styles for topbar 
+
+#top-tabs {
+	min-height: 36px;
+	margin: 0px auto 15px;
+	padding: 7px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+	background-color:#fff; /*rgb(231, 231, 231);*/
+	clear:both;
+}
+
+.tab-home {
+	width: 17px;
+	height: 19px;
+	overflow: hidden;
+	margin: -7px 12px -7px -7px;
+	padding: 15px 18px 16px;
+	float: left;
+	display: block;
+	border-radius: 5px 0px 0px 5px;
+}
+
+#dokuwiki__header a
+{
+	color:#333;	
+}
+
+#dokuwiki__header a.tab-home {
+	background-color:rgb(54, 58, 62);
+}
+
+#tab-menu {
+	float: left;
+}
+
+#tab-menu li {
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+	float: left;
+	font: bold 1.1em Arial,Helvetica,sans-serif;
+	background: none repeat scroll 0% 0% transparent;
+	list-style: none outside none;
+}
+
+#tab-menu ul:first-of-type li a:hover {
+	background: url("images/hover.png") repeat-x scroll center top #616770;
+    color: #333;
+	border-radius: 5px;
+}
+
+#tab-menu li a {
+	margin: 0px;
+	padding: 10px 18px;
+	float: left;
+	color: rgb(35, 35, 35);
+	text-decoration: none;
+	border-bottom:none;
+}
+
+#tab-social img {
+	height: 32px;
+}
+
+#tab-social li {
+	margin: 0px;
+	padding: 0px 0px 0px 3px;
+	display:contents;
+}
+
+#tab-social {
+	height: 33px;
+	//overflow: hidden;
+	float: right;
+	margin: 0px;
+	padding: 2px 10px 1px;
+	list-style: none outside none;
+}
+
+// Plugin translation
+
+#plugin_translation_wrapper {
+	display: flex;	
+}
+
+.dokuwiki div.plugin_translation ul li a:link, 
+.dokuwiki div.plugin_translation ul li a:hover, 
+.dokuwiki div.plugin_translation ul li a:active, 
+.dokuwiki div.plugin_translation ul li a:visited, 
+.dokuwiki div.plugin_translation ul li span {
+	padding: inherit;
+    background-color: transparent;
+    color: #333;
+    text-decoration: none;
+    border: none;
+    white-space: nowrap;
+    text-align: left;
+	display: inline-block;
+}
+ 
+ 
+// Tablet fixes
+ 
+@media (max-width: @ini_tablet_width) {
+	#dokuwiki__aside {
+		width: auto;
+		float: none;
+		margin: 0px;
+		padding: 0;
+	}
+
+	#top-tabs {
+		overflow:hidden;
+	}
+	.tab-home {
+		display:none;
+		visibility:none;
+	}
+	#tab-menu {
+		width:85%;
+		float:left;
+	}
+	#tab-social {
+		float:right;
+		margin: 0;
+		padding: 0;
+	}
+	#tab-menu ul {
+		margin:0 0 0 1em;
+		padding:0px;
+	}
+	#tab-menu li {
+		float:none;
+		font-size: 0.9em;
+		padding:0;
+		margin:0
+	}
+
+	#tab-menu li a {			
+		border-radius: 5px;
+		
+	}
+
+}
+// Phone Fixes
+@media (max-width: @ini_phone_width) {	
+	.dokuwiki div.plugin_translation
+	{
+		position:absolute;
+		top:2em;
+		right:0px;
+		height:2em;
+		width:10em;
+		overflow:hidden;
+	}
+	.dokuwiki div.plugin_translation ul
+	{
+		display:block !important;
+	}
+	#tab-menu li {
+		list-style: circle;
+		margin: 3px;
+	}	
+	#tab-menu li a {
+		font-size: 1em;
+		padding: 0;
+	
+	}
+	#tab-social li {
+		display:block;
+		padding: 0;
+
+
+	}
+
+
+}
+ 
