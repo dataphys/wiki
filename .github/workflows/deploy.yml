@@ -1,0 +1,35 @@
+name: Deploy dataphys wiki
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up SSH
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.OVH_SSH_KEY }}
+        SSH_PASSPHRASE: ${{ secrets.OVH_SSH_PASSPHRASE }}
+      run: |
+        mkdir -p ~/.ssh
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+
+        # Start the SSH agent and add the key with the passphrase
+        eval "$(ssh-agent -s)"
+        echo "$SSH_PASSPHRASE" | ssh-add ~/.ssh/id_rsa
+
+    - name: Deploy to OVH
+      env:
+        OVH_USER: ${{ secrets.OVH_USER }}
+        OVH_HOST: ${{ secrets.OVH_HOST }}
+        OVH_PATH: ${{ secrets.OVH_PATH }}
+      run: |
+        rsync -avz --delete . $OVH_USER@$OVH_HOST:$OVH_PATH
