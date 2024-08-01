@@ -18,6 +18,8 @@ jobs:
         SSH_PRIVATE_KEY: ${{ secrets.OVH_SSH_KEY }}
         SSH_PASSPHRASE: ${{ secrets.OVH_SSH_PASSPHRASE }}
         OVH_SSH_HOST_KEY: ${{ secrets.OVH_SSH_HOST_KEY }}
+        OVH_USER: ${{ secrets.OVH_USER }}
+        OVH_HOST: ${{ secrets.OVH_HOST }}
       run: |
         mkdir -p ~/.ssh
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
@@ -29,6 +31,9 @@ jobs:
         # Start the SSH agent and add the key with the passphrase
         eval "$(ssh-agent -s)"
         echo "$SSH_PASSPHRASE" | ssh-add ~/.ssh/id_ed25519
+
+        # Verify SSH connection
+        ssh -o StrictHostKeyChecking=yes $OVH_USER@$OVH_HOST "echo 'SSH connection successful'"
 
     - name: Deploy to OVH
       env:
