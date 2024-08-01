@@ -41,4 +41,4 @@ jobs:
         OVH_HOST: ${{ secrets.OVH_HOST }}
         OVH_PATH: ${{ secrets.OVH_PATH }}
       run: |
-        rsync -avz --delete . $OVH_USER@$OVH_HOST:$OVH_PATH
+        rsync -avz --delete -e "ssh -o StrictHostKeyChecking=yes" . $OVH_USER@$OVH_HOST:$OVH_PATH
