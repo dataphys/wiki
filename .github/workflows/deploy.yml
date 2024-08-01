@@ -44,4 +44,11 @@ jobs:
         OVH_HOST: ${{ secrets.OVH_HOST }}
         OVH_PATH: ${{ secrets.OVH_PATH }}
       run: |
+
+        # Adding ssh-agent details to environment variables for rsync to use
+        export $(ssh-agent -s | grep -o 'SSH_AUTH_SOCK=[^;]*')
+
+        # Verify that ssh-agent is running and the key is added
+        ssh-add -l
+        
         rsync -avz --delete -e "ssh -vvv -o StrictHostKeyChecking=yes" . $OVH_USER@$OVH_HOST:$OVH_PATH
