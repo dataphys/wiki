@@ -1,0 +1,46 @@
+name: Test SSH and Rsync
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up SSH and Test Rsync
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.OVH_SSH_KEY }}
+        SSH_PASSPHRASE: ${{ secrets.OVH_SSH_PASSPHRASE }}
+        OVH_USER: ${{ secrets.OVH_USER }}
+        OVH_HOST: ${{ secrets.OVH_HOST }}
+        OVH_PATH: ${{ secrets.OVH_PATH }}
+        OVH_SSH_HOST_KEY: ${{ secrets.OVH_SSH_HOST_KEY }}
+      run: |
+        mkdir -p ~/.ssh
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+
+        # Add the OVH server to known_hosts to avoid host key verification failure
+        echo "$OVH_SSH_HOST_KEY" >> ~/.ssh/known_hosts
+
+        # Start the SSH agent and add the key with the passphrase
+        eval "$(ssh-agent -s)"
+        echo "$SSH_PASSPHRASE" | tr -d '\n' | ssh-add ~/.ssh/id_rsa
+
+        # Debug: List added SSH keys to ensure key is added
+        ssh-add -l || { echo "SSH key not added"; exit 1; }
+
+        # Verify SSH connection with verbosity
+        ssh -vvv -o StrictHostKeyChecking=yes $OVH_USER@$OVH_HOST "echo 'SSH connection successful'" || { echo "SSH connection failed"; exit 1; }
+
+        # Create a test file with the OVH_PATH content
+        echo "$OVH_PATH" > testfile.txt
+
+        # Perform rsync deployment to the specific directory without delete option
+        rsync -avz -e "ssh -o StrictHostKeyChecking=yes -vvv" testfile.txt $OVH_USER@$OVH_HOST:$OVH_PATH || { echo "Rsync failed"; exit 1; }
