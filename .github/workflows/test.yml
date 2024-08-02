@@ -45,5 +45,5 @@ jobs:
         echo "$OVH_PATH" > testfile.txt
 
         # Perform rsync deployment to the specific directory without delete option
-        export RSYNC_RSH="ssh -o StrictHostKeyChecking=yes -i ~/.ssh/id_ed25519"
+        export $(ssh-agent -s | grep -o 'SSH_AUTH_SOCK=[^;]*')
         rsync -avz testfile.txt $OVH_USER@$OVH_HOST:$OVH_PATH || { echo "Rsync failed"; exit 1; }
