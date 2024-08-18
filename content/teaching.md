@@ -1,0 +1,89 @@
+---
+title: Teaching
+weight: 7
+---
+This page collects resources for teaching data physicalization. If you
+developed teaching material and want to list them here, please send the
+link and a short description to info@dataphys.org or, if you plan to
+contribute on a more regular basis to this wiki, just ask us for an
+account using the same address.
+
+# Teaching Material
+
+Material which can be reused by others for their own teaching. All
+resources should indicate a license for reuse and give credit to those
+who created the material.
+
+-   2021 - [Assignment on //Personal Data
+    Physicalization//](http://web.uvic.ca/~cperin/teaching/2021/infovis/documents/personal-vis.html)
+    covering instructions for how to collect data, design constraints,
+    and deliverables. This is part of a course given by Charles Perin at
+    University of Victoria.
+-   2020 - [A data physicalization
+    assignment](https://pages.cpsc.ucalgary.ca/~lora.oehlberg/tui-w20/#assignment3)
+    (assignment 3) in the context of the course *Tangible & Physical
+    HCI* given by Lora Oehlberg at the University of Calgary.
+-   2016 -- [A set of cards providing
+    constraints](http://dataphys.org/workshops/drs16/wp-content/uploads/sites/4/2016/07/cards_final.pdf)
+    for a data physicalization exercise. CC-BY-4.0 Graphic design:
+    Pauline Gourlet. Illustration for scenario cards: Samuel Huron.
+    Concept: Yvonne Jansen, Pauline Gourlet, Samuel Huron, Uta Hinrichs,
+    Trevor Hogan. See the [related workshop
+    report](http://dataphys.org/workshops/drs16) for how to use them.
+
+# Teaching Reports
+
+A list of any form of report illustrating how a course or workshop was
+organized or what its outcomes are.
+
+-   2016 -- [French](in)
+    \[<https://strabic.fr/Et-si-nous-fossilisions-nos-donnees> Report of
+    a 3-day workshop\] from March 29 to 31, 2016 at Stereolux and
+    Fabmake in Nantes, France. It was organized by Stéphane Buellet
+    (together with Julia Puyo) invited by Boris Letessier.
+-   2016 -- [A workshop report from the 2016 DRS
+    conference](http://dataphys.org/workshops/drs16/) which used a
+    protocol that could also be applied in a class room. The workshop
+    was run by Yvonne Jansen, Pauline Gourlet, Samuel Huron, Uta
+    Hinrichs, Trevor Hogan.
+-   2016 -- Not a real report but [photos from the hands-on part of a 3h
+    course](https://www.flickr.com/photos/cuivienna/sets/72157667253863706)
+    given by Yvonne Jansen for students of the *Creative Technology*
+    master at TU Twente in 2016.
+-   2014-2017 -- [Data Viz
+    Experiments](https://www.datavizexperiments.org/) summarizing the
+    outcomes of yearly projects by the Fine Arts Data Visualization Lab
+    at the University of Lethbridge led by Leanne Elias and Denton
+    Fredrickson.
+
+# Teaching Bibliography
+
+Readings that can be useful for preparing lectures and activities around
+data physicalization, including states of the art and papers on teaching
+data physicalization.
+
+-   2021 -- Pierre Dragicevic, Yvonne Jansen, Andrew Vande Moere. [Data
+    Physicalization](https://hal.inria.fr/hal-02113248v2/document). Jean
+    Vanderdonckt, Ed. Springer Handbook of Human Computer
+    Interaction, 2021. In press. (state of the art as of late 2019)
+-   2017 -- Samuel Huron, Pauline Gourlet, Uta Hinrichs, Trevor Hogan,
+    Yvonne Jansen. [Let's Get Physical: Promoting Data Physicalization
+    in Workshop
+    Formats](https://hal.sorbonne-universite.fr/hal-01538595/document).
+    Conference on Designing Interactive Systems DIS 2017, ACM, Jun 2017,
+    New York, United States. pp.1409 - 1422.
+-   2016 - [Position
+    papers](http://dataphys.org/workshops/dis17/position-papers/) sent
+    to the the DIS 2017 workshop *Pedagogy & Physicalization Designing
+    Learning Activities around Physical Data Representations*
+-   2009 -- [paywalled](paywalled) Andrew Vande Moere and Stephanie
+    Patel. [The physical visualization of information: designing data
+    sculptures in an educational
+    context](https://link.springer.com/chapter/10.1007/978-1-4419-0312-9_1).
+    Visual information communication. Springer, Boston, MA, 2009. 1-23.
+    There is also an [entry in the List of Physical
+    Visualizations](http://dataphys.org/list/data-sculptures-in-class/)
+    on the physicalizations described in this article.
+
+For an extensive bibliography on data physicalization, refer to our
+[Bibliography](Bibliography) page.

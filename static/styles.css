@@ -1,0 +1,146 @@
+body {
+	font-family:"OpenSans";
+	font-size: 0.85em;
+	margin: 2px;
+    padding: 0;
+}
+
+main { 
+/*	max-width: 900px;
+	margin: auto;*/
+}
+
+img {
+	width: 80px;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+.side-nav {
+    background-color: #EFEFEF; /* Background color of the sidebar */
+    color: black; /* Text color */
+    position: fixed; /* Sticks the menu to the left side */
+    top: 0;
+    left: 0;
+    width: 200px; /* Width of the sidebar */
+    height: 100vh; /* Full height of the viewport */
+    padding-top: 20px;
+    z-index: 1000; /* Ensure it's above other content */
+    box-shadow: 1px 0 1px rgba(0, 0, 0, 0.2); /* Optional shadow for better separation */
+    overflow-y: auto; /* Enables scrolling within the menu if the content overflows */
+}
+
+.menu {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    margin: 10px 0; /* Vertical space between menu items */
+}
+
+.menu-link {
+    color: #000; /* Link color */
+    text-decoration: none; /* Removes underline from links */
+    padding: 5px 20px; /* Padding inside each menu item */
+    display: block; /* Ensures the entire area is clickable */
+}
+
+.menu-link:hover {
+    background-color: #CCC; /* Background color on hover */
+    border-radius: 5px; /* Rounds the corners on hover */
+}
+
+.menu-button-container {
+        display: none;
+}
+
+.site-branding {
+    text-align: center;
+/*    padding: 20px 0;*/
+}
+
+img.site-logo {
+	width: 160px;
+}
+
+.site-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.site-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #fff;
+}
+
+/* Adjust content to accommodate the sidebar */
+main {
+    margin-left: 220px; /* Adjust the margin to fit the sidebar */
+    padding: 20px; /* Optional padding for content */
+}
+
+
+.youtube {
+	width: 400px;
+	height: 225px;
+	float: right;
+	overflow: auto;
+
+	img {
+		width: 100%;
+	}
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 768px) {
+    .side-nav {
+        width: 100%; /* Sidebar takes up full width on small screens */
+        height: auto;
+        position: relative; /* No longer fixed */
+        top: 0;
+        left: 0;
+    }
+
+    main {
+        margin-left: 0; /* Reset the margin on small screens */
+    }
+    @media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu-button-container {
+        display: block;
+        cursor: pointer;
+    }
+
+    #menu-toggle:checked + label + .menu {
+        display: flex;
+    }
+
+    .menu-item {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu-link {
+        padding: 15px;
+    }
+}
+}
+

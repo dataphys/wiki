@@ -1,0 +1,9 @@
+baseURL = 'https://dataphys.org/wiki'
+languageCode = 'en-us'
+title = 'Data Physicalization Wiki'
+sectionPagesMenu = 'main'
+[markup.goldmark]
+[markup.goldmark.renderer]
+	unsafe= true
+	[markup.goldmark.extensions]
+    	table = true
