@@ -2,6 +2,14 @@ baseURL = 'https://dataphys.org/wiki'
 languageCode = 'en-us'
 title = 'Data Physicalization Wiki'
 sectionPagesMenu = 'main'
+enableGoogleAnalytics = true
+googleAnalytics = "G-H7ZWT9ZPHN"
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
 [markup.goldmark]
 [markup.goldmark.renderer]
 	unsafe= true
